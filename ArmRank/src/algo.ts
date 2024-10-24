@@ -64,7 +64,7 @@ export const getAthletes = (
       };
       looser = {
         id: match.firstAthleteId,
-        lastWeightKg: match.secondAthleteWeightKg,
+        lastWeightKg: match.firstAthleteWeightKg,
         points: match.firstPoints,
       };
     }
