@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   Content,
   Header,
+  HeaderText,
   Logo,
   RankBox,
   RankText,
@@ -83,6 +84,7 @@ const Rank = () => {
       <Wrapper>
         <Header>
           <Logo type="image" src={batLogo} onClick={changeCount}/>
+          <HeaderText>P4P Ranking</HeaderText>
         </Header>
         <Content>
           <VerticalBox>

@@ -25,6 +25,7 @@ export const Wrapper = styled.div`
 
 export const Header = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -94,6 +95,14 @@ export const RankText = styled.p`
   color: ${colors.almostWhite};
   font-family: 'batFont';
   letter-spacing: 6px;
+`;
+
+export const HeaderText = styled.p`
+  margin: 10px 0 20px 0;
+  font-size: 36px;
+  color: ${colors.midGold};
+  font-family: 'batFontLite';
+  letter-spacing: 10px;
 `;
 
 export const WeightBox = styled.p`
