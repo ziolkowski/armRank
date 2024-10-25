@@ -6,11 +6,7 @@ export const colors = {
   neonGreen: "#A4FFAF",
   gray: "#817D92",
   red: "#F64A4A",
-
-  orange: "#FB7C58",
-  yellow: "#F8CD65",
   almostWhite: "#E6E5EA",
-  veryDarkGray: "#18171F",
 };
 
 export const Wrapper = styled.div`
